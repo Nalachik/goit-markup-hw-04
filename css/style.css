@@ -83,6 +83,11 @@ img{
   border-bottom: 1px solid #ECECEC;
 
   }
+
+.header .container{
+  display: flex;
+}  
+
 /* webstudio */
 .header-webstudio {
   font-family: Raleway;
@@ -135,12 +140,14 @@ img{
 /* header-contacts-info */
 .header-contacts-info {
   display: flex;
+  align-items: center;
   margin-left: 331px;
 }
 
 .header-contacts-info .item + .item {
   margin-left: 50px;
 }
+
 
 /* hover-focus-Header-contact-list-info */
 .header-contacts-info .link:hover,
