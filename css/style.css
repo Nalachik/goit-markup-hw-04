@@ -157,11 +157,25 @@ img{
 
 .header-mail,
 .header-tel {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+}
+.header-mail:hover{
+  color:var(--third-text-color);
+}
+.header-icon,
+.header-icon{
+ margin-right: 10px;
+}
+/* КАК ЗДЕЛАТЬ СИНИЙ НА FOCUS? */
+.header-icon:hover,
+.header-icon:focus{
+  fill: var(--third-text-color);
 }
 
 /* FOOTER-INDEX-PORTFOLIO */
@@ -276,6 +290,16 @@ img{
   display: flex;
   /* margin: 94px auto 94px auto; */
 }
+.we-offer-icon-bg{
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--bg-color-two);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .we-offer .offer-list + .offer-list{
   margin-left: 30px;
@@ -283,7 +307,7 @@ img{
 
 .offer-list{
   width: 270px;
-  height: 101px;
+  
 }
 
 .offer-title {
@@ -296,16 +320,19 @@ img{
 }
 .offer-description {
   padding-top: 10px;
-
+  
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em var(--second-text-color);
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
+
+
 /* section-what-we-do */
 .what-we-do {
   justify-content: center;
-
+  
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
