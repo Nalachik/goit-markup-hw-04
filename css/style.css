@@ -70,6 +70,7 @@ img{
 .active{
   color: var(--third-text-color);
 }
+
 .nav-links .link.active{
   color: var(--third-text-color);
 }
@@ -165,14 +166,16 @@ img{
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
-.header-mail:hover{
-  color:var(--third-text-color);
-}
+
+
 .header-icon,
 .header-icon{
  margin-right: 10px;
+ fill: currentColor;
+ 
 }
-/* КАК ЗДЕЛАТЬ СИНИЙ НА FOCUS? */
+
+/* КАК ЗДЕЛАТЬ СИНИЙ НА FOCUS ПРАВИЛЬНО? */
 .header-icon:hover,
 .header-icon:focus{
   fill: var(--third-text-color);
@@ -393,8 +396,7 @@ img{
 }
 .team-duty {
   padding-top: 10px;
-  padding-bottom: 30px;
-
+  padding-bottom: 16px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -402,6 +404,47 @@ img{
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
+
+/* .........team icons.....[f][t][id][in]*/
+.socials{
+  display: flex;
+  justify-content: center;
+}
+.team-socials .social-item + .social-item{
+  margin-left: 10px;
+}
+.team-socials{
+  margin-bottom: 30px;
+}
+.social-item{
+  width: 44px;
+  height: 44px;
+}
+.social-icon{
+  fill:var(--second-text-color)
+}
+
+.social-link{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--fourth-text-color);
+ }
+ 
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+  fill: var(--fourth-text-color);
+} 
+.social-link:hover,
+.social-link:focus{
+  background-color: var(--third-text-color);
+}
+
+/* ..........clients Logo.......... */
+
 
 
 
