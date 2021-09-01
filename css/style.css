@@ -9,6 +9,8 @@
   --bg-color-two: #f5f4fa;
   --bg-color-third: #188CE8; 
   --projects-gap: 30px;
+  --icons-color: #AFB1B8;
+
 
 }
 
@@ -421,7 +423,7 @@ img{
   height: 44px;
 }
 .social-icon{
-  fill:var(--second-text-color)
+  fill:var(--icons-color);
 }
 
 .social-link{
@@ -477,7 +479,7 @@ img{
   cursor: pointer;
 }
 .clients-icon{
-  fill: var(--second-text-color);
+  fill: var(--icons-color);
 }
 
 .clients-link:hover .clients-icon,
