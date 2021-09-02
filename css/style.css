@@ -234,7 +234,13 @@ img{
   padding-bottom: 60px;
 }
 /* <<<<<<<<JOIN-LINKS>>>>>>> */
-
+.join{
+  display: flex;
+  justify-content: center;
+}
+.join-links .join-item + .join-item{
+  margin-left: 10px;
+}
 .join-links-titel{
   margin-bottom: 20px;
   font-weight: bold;
