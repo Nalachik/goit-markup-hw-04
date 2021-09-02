@@ -255,7 +255,7 @@ img{
   height: 44px; 
 }
 .join-icon{
-
+  fill: var(--fourth-text-color);
 }
 .join-link{
   width: 100%;
@@ -266,6 +266,11 @@ img{
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
+.join-link:hover,
+.join-link:focus{
+  background-color: var(--third-text-color);
+}
+
 .footer .container{
   display: flex;
   align-items: baseline;
