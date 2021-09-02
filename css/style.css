@@ -183,9 +183,12 @@ img{
   fill: var(--third-text-color);
 }
 
-/* FOOTER-INDEX-PORTFOLIO */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>FOOTER-INDEX-PORTFOLIO */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-color-one);
+
 }
 /* footer-webstudio */
 .footer-webstudio {
@@ -230,12 +233,21 @@ img{
 .footer-contacts-info{
   padding-bottom: 60px;
 }
+/* <<<<<<<<JOIN-LINKS>>>>>>> */
 
+.join-links-titel{
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fourth-text-color);
+}
 /* THE SAME ELEMENTS ↑ */
 
 
-
-/* INDEX */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>INDEX */
 /* hero-section */
 .hero-banner {
   background-color: var(--bg-color-one);
@@ -492,9 +504,7 @@ img{
 }
 
 
-
-
-/* PORTFOLIO  */
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> PORTFOLIO  */
 /* main */
 /* filters */
 .filters :hover,
