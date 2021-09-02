@@ -244,6 +244,15 @@ img{
   text-transform: uppercase;
   color: var(--fourth-text-color);
 }
+.footer .container{
+  display: flex;
+  align-items: baseline;
+}
+.footer-address{
+  margin-right: 70px;
+}
+
+
 /* THE SAME ELEMENTS ↑ */
 
 
